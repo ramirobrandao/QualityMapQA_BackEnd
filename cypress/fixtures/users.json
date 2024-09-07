@@ -1,0 +1,19 @@
+{
+  "valid": {
+    "nome": "Ramiro Brandão",
+    "email": "ramirobrandao@qa.com",
+    "password": "123456",
+    "administrador": "true"
+  },
+  "incorrect": {
+    "email": "incorreto@qa.com",
+    "password": "123456"
+  },
+  "null": {
+    "email": "",
+    "password": ""
+  },
+  "invalid": {
+    "email": "invalido@qa.com"
+  }
+}

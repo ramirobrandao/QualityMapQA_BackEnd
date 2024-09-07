@@ -1,0 +1,23 @@
+{
+    "name": "qualitymapqa_backend", 
+    "version": "1.0.0",
+    "description": "Desafio técnico de automação Backend com Cypress",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint cypress/**/*.js",
+        "lint:fix": "eslint cypress/**/*.js --fix",
+        "test": "cypress run",
+        "cy:open": "cypress open",
+        "test_headed": "cypress run --headed"
+
+    },
+    "author": "Ramiro Brandão",
+    "license": "MIT",
+    "devDependencies": {
+        "@bahmutov/cy-api": "^2.2.1",
+        "cypress": "^13.7.1",
+        "eslint": "^7.32.0",
+        "eslint-plugin-cypress": "^2.11.3",
+        "faker": "^5.5.3"
+    }
+}
