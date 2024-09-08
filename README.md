@@ -7,7 +7,7 @@
 - NodeJS;
 - Git;
 - IDE (Visual Studio Code);
-- Material Icon Theme (Opcional Plugin VSCode).
+- Material Icon Theme (Optional Plugin VSCode).
 
 ## Instalação
 
