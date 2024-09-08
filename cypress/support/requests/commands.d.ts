@@ -34,7 +34,7 @@ declare namespace Cypress {
          * 
          * @param id string - The user ID
          * 
-         * @example cy.getUserById('0uxuPY0cbmQhpEz1')
+         * @example cy.getUserById('0agUnNz8n3eZO901')
          */
         getUserById(id: string): Cypress.Chainable<null>
 
@@ -57,7 +57,7 @@ declare namespace Cypress {
          *
          * @param id string - The user ID
          *
-         * @example cy.deleteUser('0uxuPY0cbmQhpEz1')
+         * @example cy.deleteUser('0agUnNz8n3eZO901')
          */
         deleteUser(id: string): Cypress.Chainable<undefined>
 
@@ -67,7 +67,7 @@ declare namespace Cypress {
          * @param id string - The user ID
          * @param payload object - The payload of request body with new user infos
          *
-         * @example cy.putUser('0uxuPY0cbmQhpEz1', {
+         * @example cy.putUser('0agUnNz8n3eZO901', {
                         nome: 'Mike Stern',
                         email: 'mike@email.com',
                         password: 'pwd123',
@@ -88,7 +88,7 @@ declare namespace Cypress {
          * 
          * @param id string - The user ID
          * 
-         * @example cy.getProductById('BeeJh5lz3k6kSIzA')
+         * @example cy.getProductById('0agUnNz8n3eZO901')
          */
         getProductById(id: string): Cypress.Chainable<null>
 

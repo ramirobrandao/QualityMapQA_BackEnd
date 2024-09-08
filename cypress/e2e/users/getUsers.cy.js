@@ -23,4 +23,18 @@ describe('GET method', () => {
       })
     })
   })
+
+  it('get a user not found', () => {
+    cy.request({
+      method: 'GET',
+      url: `https://serverest.dev/usuarios/11111111111`,
+      failOnStatusCode: false 
+    }).as('responseById');
+  
+    cy.get('@responseById').should(response => {
+      expect(response.status).to.be.equal(400);
+      expect(response.body.message).to.be.equal('Usuário não encontrado');
+    });
+  });    
+
 })
